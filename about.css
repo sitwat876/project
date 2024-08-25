@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Jost', sans-serif;
+    line-height: 1.6;
+    color: #40534C;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    background: #40534C;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navmenu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-item {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 5px 8px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-item:hover {
+    color: #677D6A; /* Light Green */
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon i {
+    margin: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: transform .3s ease, color .3s ease;
+}
+
+.nav-icon i:hover {
+    transform: scale(1.1);
+    color: #1A3636; /* Darkest Green */
+}
+
+#menu-icon {
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    color: #1A3636;
+}
+
+.about-section h3 {
+    margin-top: 1.5rem;
+    color: #1A3636;
+}
+
+.about-section p {
+    margin-bottom: 1rem;
+}
+
+.about-section a {
+    color: rgb(63, 163, 202);
+    text-decoration: none;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background: #40534C;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
